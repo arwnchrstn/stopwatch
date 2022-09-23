@@ -1,0 +1,17 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container .timer {
+  height: 30%;
+}
+
+.main-container .laps {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
